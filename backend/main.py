@@ -45,7 +45,7 @@ except ImportError:
     print("⚠️ TurboJPEG bulunamadı, OpenCV JPEG kullanılacak.")
 
 # --- 1. AYARLAR ---
-GEMINI_API_KEY = "AIzaSyBbWomv4GR3ZkIMsW7uTqZkGxK5jJ2Pm5I"
+GEMINI_API_KEY = "API-Key"
 MODEL_PATH = 'comic-speech-bubble-detector.pt'
 ACTIVE_MODEL_NAME = "gemini-2.0-flash"
 FONT_PATH = "font.ttf"
