@@ -1,0 +1,15 @@
+# Python Ortam Dosyaları
+backend/venv/
+backend/__pycache__/
+
+# GÜVENLİK (Kesinlikle yüklenmemesi gereken şifre ve anahtarlar)
+backend/firebase_key.json
+extension.pem
+
+# Büyük Model ve Ağırlık Dosyaları (100MB sınırına takılmamak için)
+backend/*.pt
+backend/*.engine
+backend/*.onnx
+
+# Paketlenmiş Eklenti (Bunu da koddan bağımsız tutmak iyi bir pratiktir)
+extension.crx

@@ -1,0 +1,26 @@
+# --- TEMEL WEB ÇERÇEVESİ ---
+fastapi
+uvicorn
+python-multipart
+
+# --- YAPAY ZEKA VE GÖRÜNTÜ İŞLEME ---
+ultralytics
+manga-ocr
+opencv-python-headless
+pillow
+numpy
+
+# --- GOOGLE GEMINI ---
+google-generativeai
+google-genai
+
+# --- FIREBASE ---
+firebase-admin
+requests
+
+# --- HIZLANDIRICILAR (Opsiyonel ama kodunda aranıyor) ---
+PyTurboJPEG
+
+# --- EĞER ESKİ SERVER.PY KULLANILACAKSA ---
+flask
+flask-cors
